@@ -14,3 +14,39 @@ footer {
    font-size: 0.8em;
    color: #666;
 }
+
+form {
+   background-color:#ffffff;
+   padding: 20px;
+   padding-radius: 10px;
+   max-width: 400px;
+   margin: 0 auto;
+   box shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-buttom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20 px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004c99;
+}
+
+#respuesta {
+    margin-top: 20px;
+    color: green;
+    font-weigth: bold;
+}
